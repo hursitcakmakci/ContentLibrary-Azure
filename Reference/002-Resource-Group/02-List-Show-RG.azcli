@@ -1,0 +1,5 @@
+# LIST RESOURCE GROUP
+az group list -o table
+
+# SHOW RESOURCE GROUP
+az group show -n "<resource-name>" -o table

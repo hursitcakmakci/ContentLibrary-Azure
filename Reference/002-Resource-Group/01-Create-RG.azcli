@@ -1,0 +1,12 @@
+#CREATE RESOURCE GROUP
+az group create \
+    --name <resource-group-name> \
+    --location <region-name> \
+    --subscription "<subscription-name>" \                     #Optional
+    --tags '<tag-key>=<tag-value>' '<tag-key>=<tag-value>' \   #Optional
+    --output jsonc
+
+# ADDITIONAL INFO
+# location      --> for example: westus, westus2, eastus, eastus2, westeurope, northeurope ...
+# jsonc         --> The JSONC is the colored variant of JSON
+# < >           --> Don't use '<' and '>' characters. They only indicate that a value must be entered.

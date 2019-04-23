@@ -1,0 +1,11 @@
+#DELETE RESOURCE GROUP
+az group delete \
+    --name <resource-group-name> \
+    --subscription "<subscription-name>" \     #Optional
+    --yes \                                    #Optional
+    --no-wait                                  #Optional
+
+# ADDITIONAL INFO
+# --yes         --> Do not prompt for confirmation.
+# --no-wait     --> Do not wait for the long-running operation to finish.
+# < >           --> Don't use '<' and '>' characters. They only indicate that a value must be entered.
