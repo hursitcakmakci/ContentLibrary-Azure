@@ -1,0 +1,10 @@
+# DELETE VNET
+az network vnet delete \
+    --resource-group <resource-group-name> \
+    --name <vnet-name>
+
+# All Parameters
+# [--ids]
+# [--name]
+# [--resource-group]
+# [--subscription]

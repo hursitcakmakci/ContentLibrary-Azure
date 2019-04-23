@@ -1,0 +1,26 @@
+# CREATE VNET (Virtual Network)
+az network vnet create \
+    --name <vnet-name> \
+    --subscription "<subscription-name>" \
+    --resource-group <resource-group-name> \
+    --location <region-name> \
+    --address-prefixes <---.---.---.---/--> \
+    --ddos-protection false \
+    --output jsonc
+
+# All Properties
+    # --name
+    # --resource-group
+    # [--address-prefixes]
+    # [--ddos-protection {false, true}]
+    # [--ddos-protection-plan]
+    # [--dns-servers]
+    # [--location]
+    # [--subnet-name]
+    # [--subnet-prefixes]
+    # [--subscription]
+    # [--tags]
+    # [--vm-protection {false, true}]
+
+# Reference Link
+# https://docs.microsoft.com/en-us/cli/azure/network/vnet?view=azure-cli-latest#az-network-vnet-create

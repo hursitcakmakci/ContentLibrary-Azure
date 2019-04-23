@@ -1,0 +1,27 @@
+# UPDATE VNET
+az network vnet update 
+    -g MyResourceGroup 
+    -n MyVNet 
+    --dns-servers <ip-address>
+
+# All Parameters
+    # [--add]
+    # [--address-prefixes]
+    # [--ddos-protection {false, true}]
+    # [--ddos-protection-plan]
+    # [--dns-servers]
+    # [--force-string]
+    # [--ids]
+    # [--name]
+    # [--remove]
+    # [--resource-group]
+    # [--set]
+    # [--subscription]
+    # [--vm-protection {false, true}]
+# Some Descriptions
+# --add
+    # Add an object to a list of objects by specifying a path and key value pairs. 
+    # Example: --add property.listProperty <key=value, string or JSON string>.
+
+# Reference Link
+# https://docs.microsoft.com/en-us/cli/azure/network/vnet?view=azure-cli-latest#az-network-vnet-update

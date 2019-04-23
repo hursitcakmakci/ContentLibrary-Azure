@@ -1,0 +1,6 @@
+# LIST VNET (Virtual Network)
+az network vnet list 
+
+# All Parameters
+    # [--resource-group]
+    # [--subscription]
