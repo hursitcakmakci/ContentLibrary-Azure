@@ -1,0 +1,11 @@
+# DELETE SUBNET
+az network vnet subnet delete \
+    -g <rg-name> \
+    -n <subnet-name>
+
+# All Parameters
+# [--ids]
+# [--name]
+# [--resource-group]
+# [--subscription]
+# [--vnet-name]

@@ -1,0 +1,30 @@
+# CREATE SUBNET
+az network vnet subnet create \
+    --name <subnet-name> \
+    --subscription "<subscription-name>" \
+    --resource-group <rg-name> \
+    --vnet-name <vn-name> \
+    --address-prefixes _._._._/_ \
+    --network-security-group <nsg-name> \
+    --route-table <rt-name> \
+    --output jsonc
+
+# All Parameters
+    # --address-prefixes
+    # --name
+    # --resource-group
+    # --vnet-name
+    # [--delegations]
+    # [--network-security-group]
+    # [--route-table]
+    # [--service-endpoint-policy]
+    # [--service-endpoints]
+    # [--subscription]
+
+# Some Descriptions
+# --service-endpoint-policy
+    # Space-separated list of names or IDs of service endpoint policies to apply.
+
+# --service-endpoints
+    # Space-separated list of services allowed private access to this subnet.
+    # value from: az network vnet list-endpoint-services

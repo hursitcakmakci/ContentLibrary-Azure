@@ -1,0 +1,24 @@
+# LIST SUBNET
+az network vnet subnet list \
+    -g <rg-name> \
+    --vnet-name <vnet-name>
+
+# All Parameters
+# [--ids]
+# [--resource-group]
+# [--subscription]
+# [--vnet-name]
+
+# SHOW SUBNET
+# Show details of a subnet.
+az network vnet subnet show \
+    -g <rg-name> \
+    --vnet-name <vnet-name>
+
+# All Parameters
+# [--expand]
+# [--ids]
+# [--name]
+# [--resource-group]
+# [--subscription]
+# [--vnet-name]

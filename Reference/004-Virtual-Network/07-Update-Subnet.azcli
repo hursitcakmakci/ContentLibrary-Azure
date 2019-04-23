@@ -1,0 +1,23 @@
+# UPDATE SUBNET
+az network vnet subnet update 
+    -g <rg-name> \
+    -n <subnet-name> \
+    --vnet-name <vnet-name> \
+    --network-security-group <nsg-name>
+
+# All Parameters
+# [--add]
+# [--address-prefixes]
+# [--delegations]
+# [--force-string]
+# [--ids]
+# [--name]
+# [--network-security-group]
+# [--remove]
+# [--resource-group]
+# [--route-table]
+# [--service-endpoint-policy]
+# [--service-endpoints]
+# [--set]
+# [--subscription]
+# [--vnet-name]
