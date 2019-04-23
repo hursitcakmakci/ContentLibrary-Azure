@@ -1,0 +1,6 @@
+#Connect Azure With Azure CLI
+az login
+
+# Related Reference Link
+# https://docs.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest#az-login
+

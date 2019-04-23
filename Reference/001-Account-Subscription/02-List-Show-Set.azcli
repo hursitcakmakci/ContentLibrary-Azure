@@ -1,0 +1,12 @@
+#Show Account Details and TenantID
+az account show -o table
+
+#Show Membership List and SubscriptionID's
+az account list -o table
+
+# Select the membership you want to work on
+az account set --subscription "<subscripion-name>" 
+# Note: If there are more than one membership on the account, use "Name" Column for "subscription-name".
+
+# Related Reference Link
+# https://docs.microsoft.com/en-us/cli/azure/account?view=azure-cli-latest
