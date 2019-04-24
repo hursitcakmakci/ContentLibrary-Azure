@@ -1,7 +1,7 @@
 # REMOVE VNET
 Remove-AzVirtualNetwork
-      -Name <String>
-      -ResourceGroupName <String>
+      -Name "name"
+      -ResourceGroupName "rg-name"
 
 # All Parameters
 # -Name <String>
