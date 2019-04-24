@@ -1,7 +1,7 @@
 
 # Assigning values to variables
-$KVRGname = (Get-AzResourceGroup -ResourceGroupName RG-HCLab-General).ResourceGroupName   #RG-Contoso-General
-$VMRGname = (Get-AzResourceGroup -ResourceGroupName RG-HCLab-Dev).ResourceGroupName          #RG-Contoso-Prod
+$KVRGname = (Get-AzResourceGroup -ResourceGroupName RG-Contoso-General).ResourceGroupName
+$VMRGname = (Get-AzResourceGroup -ResourceGroupName RG-Contoso-Prod).ResourceGroupName
 $KVLocation = "westeurope"
 $vmName = "MySecureVM"             
 $KVName = "MySecureVault001"     # The value is must be unique
