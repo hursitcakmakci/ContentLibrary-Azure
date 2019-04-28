@@ -19,7 +19,7 @@ Remove-Variable RG-Contoso-Prod
 ###### Clear a variable
 ```PowerShell
 $count = 5
-Clear-Variable test
+Clear-Variable $count
 $count
 # Now the value of count is empty
 ```
